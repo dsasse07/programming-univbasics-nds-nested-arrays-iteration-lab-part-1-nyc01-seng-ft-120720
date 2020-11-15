@@ -7,5 +7,10 @@ def find_even_values(src)
 while count < src.length do 
   inner_count = 0 
   while inner_count < src[count].length do
-    
+    if src[count][inner_count].even?
+      even_array << src[count][inner_count]
+    end
+    inner_count += 11
+  end
+  count +=1
 end
