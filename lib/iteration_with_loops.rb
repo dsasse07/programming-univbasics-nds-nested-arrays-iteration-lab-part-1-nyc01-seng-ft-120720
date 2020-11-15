@@ -12,5 +12,5 @@ while count < src.length do
     end
     inner_count += 11
   end
-  count +=1
+  count += 1
 end
